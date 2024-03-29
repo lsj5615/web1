@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>겁나 힘든 표</title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            table {table-layout:fixed ;width: 70%; text-align: center;}
+            #header {background-color:rgb(14, 154, 32)}
+            #nav {background-color: rgb(56, 229, 79);}
+            #aside {background-color: rgb(199, 212, 235);}
+            #footer {background-color: aqua;}
+        </style>
+    </head>
+    <body>
+        <table border="1" align="center" >
+            <tr>
+                <th colspan="5"; height="100" id="header">header</th>
+            </tr>
+            <tr height="30" id="nav">
+                    <td><a href="메뉴1.html" target="frame">메뉴1</a></td>
+                    <td><a href="메뉴2.html" target="frame">메뉴2</a></td>
+                    <td><a href="메뉴3.html" target="frame">메뉴3</a></td>
+                    <td><a href="메뉴4.html" target="frame">메뉴4</a></td>
+                    <td><a href="메뉴5.html" target="frame">메뉴5</a></td>
+            </tr>
+            <tr>
+                <td colspan="4" height="500"><iframe width="825" height="480" name="frame" src="메뉴1.html"></iframe></td>
+                <td colspan="1" height="500" id="aside">aside</td>
+            </tr>
+            <tr>
+                <td colspan="5" height="50" id="footer">footer</td>
+            </tr>
+        </table>
+    </body>
+</html>
