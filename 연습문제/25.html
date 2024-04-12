@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            웹 프로그래밍 25번 연습문제
+        </title>
+        <meta charset="UTF-8" name="viewport" content="width=divice-width, initial-scale=1.0"/>
+        <style>
+            .divgroup{display:inline-block;border-style: solid;border-color: black;width: 200px;height: 100px;margin-bottom: 3px;}
+            @media all and (max-width:600px) {.divgroup{border: 3px black dotted;width: 80%;}}
+            @media all and (min-width:600px) and (max-width:1000px) {.divgroup{background-color: blue;color: white;width: 40%}}
+            @media all and (min-width:1000px) {.divgroup{background-color: yellow;color: black;width: 30%}}
+        </style>
+    </head>
+    <body>
+        <div class="divgroup">1번 영역</div>
+        <div class="divgroup">2번 영역</div>
+        <div class="divgroup">3번 영역</div>
+        <div class="divgroup">4번 영역</div>
+        <div class="divgroup">5번 영역</div>
+    </body>
+</html>
